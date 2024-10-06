@@ -4,9 +4,9 @@ function checkAnswer() {
     if (elementUserAnswer) {
         var userAnswer = elementUserAnswer.value
         if (userAnswer === correctAnswer){
-            document.getElementById("feedback").innerText="correct! Well done."
+            document.getElementById("feedback").textContent="correct! Well done."
         } else {
-            document.getElementById("feedback").innerText="That's incorrect. Try again!"
+            document.getElementById("feedback").textContent="That's incorrect. Try again!"
         } 
     }
     }
